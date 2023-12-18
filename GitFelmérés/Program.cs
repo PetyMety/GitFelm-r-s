@@ -10,10 +10,9 @@ namespace GitFelmérés
 	{
 		static void Main(string[] args)
 		{
+
 			List<int> szamok = new List<int>();
-
             Console.WriteLine("Adjon meg számokat (0 végjelig):");
-
 			int bekertSzam;
 
 			do
