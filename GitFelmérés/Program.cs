@@ -18,10 +18,14 @@ namespace GitFelmérés
 			do
 			{
 				bekertSzam = Convert.ToInt32(Console.ReadLine());
+
 				szamok.Add(bekertSzam);
 
+
                 Console.WriteLine("Beírt számok: " + string.Join(", ", szamok));
+
             } while (bekertSzam != 0);
+
 
 			
 
