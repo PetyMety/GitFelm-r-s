@@ -32,8 +32,10 @@ namespace GitFelmérés
 			if (szamok.Count > 1)
 			{
 				int max = szamok.Max();
+
 				Console.WriteLine("Maximum " + max);
 			}
+
 
 			if (szamok.Count > 1)
 			{
