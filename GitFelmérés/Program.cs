@@ -40,8 +40,10 @@ namespace GitFelmérés
 			if (szamok.Count > 1)
 			{
 				int min = szamok.Min();
+
 				Console.WriteLine("Minimum " + min);
 			}
+
 
 			Console.ReadLine();
 		}
