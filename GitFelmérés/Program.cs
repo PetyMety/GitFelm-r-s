@@ -24,16 +24,18 @@ namespace GitFelmérés
                 Console.WriteLine("Beírt számok: " + string.Join(", ", szamok));
             } while (bekertSzam != 0);
 
-			if (szamok.Count > 1)
-			{
-				int min = szamok.Min();
-                Console.WriteLine("Minimum " + min);
-            }
+			
 
 			if (szamok.Count > 1)
 			{
 				int max = szamok.Max();
 				Console.WriteLine("Maximum " + max);
+			}
+
+			if (szamok.Count > 1)
+			{
+				int min = szamok.Min();
+				Console.WriteLine("Minimum " + min);
 			}
 
 			Console.ReadLine();
